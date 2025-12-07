@@ -1,0 +1,190 @@
+/* ====================================
+   1. ADMIN GENEL STİLLERİ
+   ==================================== */
+
+body {
+    background-color: #f8f9fa; /* Hafif gri arkaplan */
+    min-height: 100vh;
+    display: flex; /* İçeriği ve menüyü yönetmek için flex kullan */
+}
+
+/* Sayfa İçeriği Alanı (Menü Açıkken Kenardan Başlaması İçin) */
+.content-wrapper {
+    flex-grow: 1;
+    padding: 30px;
+    margin-left: 280px; /* Sidebar genişliği kadar boşluk bırak */
+    transition: margin-left 0.3s ease;
+}
+
+/* Mobil Menü Kapalıyken İçerik (Sadece masaüstünde) */
+@media (max-width: 991.98px) {
+    .content-wrapper {
+        margin-left: 0; /* Mobil görünümde tam ekran */
+    }
+}
+
+/* Başlık */
+h4, h5 {
+    color: #1c1c1c;
+    font-weight: 600;
+}
+
+/* Yatay Ayırıcı */
+hr {
+    border-top: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+
+/* ====================================
+   2. ADMIN HEADER / TOPBAR STİLLERİ
+   ==================================== */
+
+.admin-header {
+    background: #ffffff; /* Beyaz topbar */
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.admin-header .header__top__right__auth a {
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+.admin-header .header__top__right__auth i {
+    margin-right: 5px;
+    color: #7fad39; /* Ogani yeşili */
+}
+
+
+/* ====================================
+   3. ADMIN SIDEBAR / MENÜ STİLLERİ (Humberger Menü Temelli)
+   ==================================== */
+
+.admin-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px; /* Sabit genişlik */
+    height: 100%;
+    background: #2c3e50; /* Koyu gri/mavi ton */
+    padding: 20px 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1030;
+    overflow-y: auto;
+}
+
+.admin-sidebar .humberger__menu__logo {
+    text-align: center;
+    padding: 10px 0 30px;
+}
+
+.admin-sidebar .humberger__menu__logo img {
+    max-width: 60px;
+}
+
+.admin-sidebar .h5 {
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Menü Linkleri */
+.admin-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-menu a {
+    color: #ecf0f1; /* Açık gri menü rengi */
+    padding: 12px 25px;
+    display: block;
+    font-size: 15px;
+    border-left: 5px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.admin-menu a i {
+    width: 25px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/* Hover ve Aktif Stil */
+.admin-menu a:hover,
+.admin-menu li.active a {
+    color: #ffffff;
+    background: #34495e; /* Hafif koyu arkaplan */
+    border-left-color: #7fad39; /* Vurgu rengi */
+}
+
+/* Çıkış Linki (En alttaki) */
+.admin-menu li.mt-4 a {
+    color: #e74c3c;
+    border-left: none;
+    border-top: 1px solid #34495e;
+    margin-top: 20px;
+}
+.admin-menu li.mt-4 a:hover {
+    background: #e74c3c;
+    color: #fff;
+}
+
+
+/* ====================================
+   4. KARTLAR VE TABLOLAR (Bootstrap'a Ek)
+   ==================================== */
+
+.card {
+    border-radius: 8px;
+}
+
+/* Dashboard Kartları */
+.border-left-success {
+    border-left: 5px solid #7fad39 !important; /* Ogani Yeşili */
+}
+.border-left-primary {
+    border-left: 5px solid #007bff !important;
+}
+.border-left-warning {
+    border-left: 5px solid #ffc107 !important;
+}
+.border-left-info {
+    border-left: 5px solid #17a2b8 !important;
+}
+
+.text-xs {
+    font-size: 0.75rem;
+}
+
+/* Tablo Stilleri */
+.table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: 600;
+    border-bottom: 2px solid #7fad39; /* Ogani yeşili alt çizgi */
+}
+
+.badge-success {
+    background-color: #7fad39;
+    color: #fff;
+}
+.badge-warning {
+    background-color: #ffc107;
+}
+.badge-danger {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+/* Form Butonları */
+.btn-success {
+    background-color: #7fad39;
+    border-color: #7fad39;
+}
+.btn-success:hover {
+    background-color: #6a9531;
+    border-color: #6a9531;
+}

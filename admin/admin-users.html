@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>...</head>
+<body>
+    <div class="content-wrapper p-4">
+        <h4>Kullanıcı Yönetimi</h4>
+        <p>Sistemdeki tüm kullanıcıları görüntüleyin, durumlarını değiştirin veya pasifleştirin.</p>
+        <hr>
+
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Kullanıcı Listesi</h6>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered" id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Ad Soyad</th>
+                            <th>E-posta</th>
+                            <th>Durum</th>
+                            <th>İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Ayşe Yılmaz</td>
+                            <td>ayse@ornek.com</td>
+                            <td><span class="badge badge-success">Aktif</span></td>
+                            <td>
+                                <button class="btn btn-sm btn-danger">Pasif Yap</button>
+                                <button class="btn btn-sm btn-info">Düzenle</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Mehmet Kara</td>
+                            <td>mehmet@ornek.com</td>
+                            <td><span class="badge badge-danger">Pasif</span></td>
+                            <td>
+                                <button class="btn btn-sm btn-success">Aktif Yap</button>
+                                <button class="btn btn-sm btn-info">Düzenle</button>
+                            </td>
+                        </tr>
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</html>

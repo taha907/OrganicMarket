@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>...</head>
+<body>
+    <div class="content-wrapper p-4">
+        <h4>Ürün Yönetimi</h4>
+        <p>Ürün stoğu, fiyatı ve görsellerini buradan yönetin.</p>
+        <hr>
+
+        <div class="card shadow mb-4">
+            <div class="card-header py-3"><h6 class="m-0 font-weight-bold text-primary">Ürün Bilgileri</h6></div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="productName">Ürün Adı</label>
+                        <input type="text" class="form-control" id="productName" placeholder="Örn: Taze Dana Eti (Kg)">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="productPrice">Mevcut Fiyat (₺)</label>
+                            <input type="number" class="form-control" id="productPrice" value="520.00">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="productOldPrice">Eski Fiyat (İndirimli ise)</label>
+                            <input type="number" class="form-control" id="productOldPrice" placeholder="Örn: 600.00">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="productStock">Stok Miktarı</label>
+                            <input type="number" class="form-control" id="productStock" value="150">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="productCategory">Kategori</label>
+                        <select id="productCategory" class="form-control">
+                            <option>Taze Et</option>
+                            <option>Sebzeler</option>
+                            <option>Kahvaltılıklar</option>
+                            </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="productImages">Ürün Görselleri Yükle</label>
+                        <input type="file" class="form-control-file" id="productImages" multiple>
+                    </div>
+                    <button type="submit" class="btn btn-success mt-3">Kaydet / Güncelle</button>
+                    <button type="button" class="btn btn-danger mt-3">Ürünü Sil</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</html>

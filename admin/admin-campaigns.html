@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>...</head>
+<body>
+    <div class="content-wrapper p-4">
+        <h4>Kampanya ve Duyuru Yönetimi</h4>
+        <p>Yeni kampanyaları görselleriyle birlikte sisteme ekleyin.</p>
+        <hr>
+
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Yeni Kampanya Ekle</h6>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="campaignTitle">Başlık</label>
+                        <input type="text" class="form-control" id="campaignTitle" placeholder="Örn: Yılbaşına Özel %20 İndirim">
+                    </div>
+                    <div class="form-group">
+                        <label for="campaignDetail">Detaylı Açıklama</label>
+                        <textarea class="form-control" id="campaignDetail" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="campaignImage">Kampanya Görseli Yükle</label>
+                        <input type="file" class="form-control-file" id="campaignImage">
+                        <small class="form-text text-muted">Maksimum dosya boyutu: 2MB.</small>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="campaignDate">Yayın Tarihi</label>
+                            <input type="date" class="form-control" id="campaignDate">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="campaignStatus">Durum</label>
+                            <select id="campaignStatus" class="form-control">
+                                <option>Aktif</option>
+                                <option>Pasif</option>
+                                <option>Taslak</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success mt-3">Kaydet</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="card shadow mb-4 mt-5">
+            <div class="card-header py-3"><h6 class="m-0 font-weight-bold text-primary">Mevcut Kampanyalar</h6></div>
+            <div class="card-body">
+                 <table class="table table-bordered">
+                    <thead>
+                        <tr><th>Başlık</th><th>Yayın Tarihi</th><th>Durum</th><th>İşlemler</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Yılbaşı Özel Çerez İndirimi</td><td>2025-12-06</td><td><span class="badge badge-success">Aktif</span></td><td><button class="btn btn-sm btn-warning">Düzenle</button></td></tr>
+                        <tr><td>Haftanın Meyvesi Kestane</td><td>2025-11-23</td><td><span class="badge badge-danger">Pasif</span></td><td><button class="btn btn-sm btn-warning">Düzenle</button></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
