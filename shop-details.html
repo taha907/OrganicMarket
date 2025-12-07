@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ogani | Ürün Detayı</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+        <div class="humberger__menu__logo">
+            <a href="#"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="humberger__menu__cart">
+            <ul>
+                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                <li><a href="./shoping-cart.html"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+            </ul>
+            <div class="header__cart__price">bakiye: <span>150.00 ₺</span></div>
+        </div>
+        <div class="humberger__menu__widget">
+            <div class="header__top__right__language">
+                <img src="img/languageFlag.png" alt="">
+                <div>Türkçe</div>
+                <span class="arrow_carrot-down"></span>
+                <ul>
+                    <li><a href="#">Türkçe</a></li>
+                    <li><a href="#">English</a></li>
+                </ul>
+            </div>
+            <div class="header__top__right__auth">
+                <a href="#" data-toggle="modal" data-target="#loginModal"><i class="fa fa-user"></i> Giriş</a>
+            </div>
+        </div>
+        <nav class="humberger__menu__nav mobile-menu">
+            <ul>
+                <li><a href="./index.html">Anasayfa</a></li>
+                <li class="active"><a href="./shop-grid.html">Mağaza</a></li>
+                <li><a href="#">Sayfalar</a>
+                    <ul class="header__menu__dropdown">
+                        <li><a href="./about.html">Biz Kimiz?</a></li>
+                        <li><a href="./shoping-cart.html">Alışveriş Sepeti</a></li>
+                        <li><a href="./checkout.html">Alışverişi Tamamla</a></li>
+                        <li><a href="./campaign-details.html">Tüm Kampanyalar</a></li>
+                    </ul>
+                </li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="header__top__right__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        </div>
+        <div class="humberger__menu__contact">
+            <ul>
+                <li><i class="fa fa-envelope"></i> tkizikoglu10@gmail.com</li>
+                <li>300 ₺ üzeri siparişlerde kargo ücretsiz!</li>
+            </ul>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-envelope"></i> tkizikoglu10@gmail.com</li>
+                                <li>300 ₺ üzeri siparişlerde kargo ücretsiz!</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="header__top__right">
+                            <div class="header__top__right__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </div>
+                            <div class="header__top__right__language">
+                                <img src="img/languageFlag.png" alt="">
+                                <div>Türkçe</div>
+                                <span class="arrow_carrot-down"></span>
+                                <ul>
+                                    <li><a href="#">Türkçe</a></li>
+                                    <li><a href="#">English</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__top__right__auth">
+                                <a href="#" data-toggle="modal" data-target="#loginModal"><i class="fa fa-user"></i> Giriş</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="header__menu">
+                        <ul>
+                            <li><a href="./index.html">Anasayfa</a></li>
+                            <li class="active"><a href="./shop-grid.html">Mağaza</a></li>
+                            <li><a href="#">Sayfalar</a>
+                                <ul class="header__menu__dropdown">
+                                    <li><a href="./about.html">Biz Kimiz?</a></li>
+                                    <li><a href="./shoping-cart.html">Alışveriş Sepeti</a></li>
+                                    <li><a href="./checkout.html">Alışverişi Tamamla</a></li>
+                                    <li><a href="./campaign-details.html">Tüm Kampanyalar</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">İletişim</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3">
+                    <div class="header__cart">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                            <li><a href="./shoping-cart.html"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                        </ul>
+                        <div class="header__cart__price">bakiye: <span>150.00 ₺</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    
+    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>Taze Dana Eti</h2>
+                        <div class="breadcrumb__option">
+                            <a href="./index.html">Anasayfa</a>
+                            <a href="./shop-grid.html">Mağaza</a>
+                            <span>Ürün Detayı</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-details spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="product__details__pic">
+                        <div class="product__details__pic__item">
+                            <img class="product__details__pic__item--large"
+                                src="img/product/details/product-details-1.jpg" alt="Ana Görsel">
+                        </div>
+                        <div class="product__details__pic__slider owl-carousel">
+                            <img data-imgbigurl="img/product/details/product-details-2.jpg"
+                                src="img/product/details/thumb-1.jpg" alt="Küçük Görsel 1">
+                            <img data-imgbigurl="img/product/details/product-details-3.jpg"
+                                src="img/product/details/thumb-2.jpg" alt="Küçük Görsel 2">
+                            <img data-imgbigurl="img/product/details/product-details-5.jpg"
+                                src="img/product/details/thumb-3.jpg" alt="Küçük Görsel 3">
+                            <img data-imgbigurl="img/product/details/product-details-4.jpg"
+                                src="img/product/details/thumb-4.jpg" alt="Küçük Görsel 4">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6">
+                    <div class="product__details__text">
+                        <h3>Taze Dana Eti (Kg)</h3>
+                        <div class="product__details__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <span>(18 yorum)</span>
+                        </div>
+                        <div class="product__details__price">520.00 ₺</div>
+                        <p>En kaliteli dana etlerinden özenle seçilmiş, taze ve sağlıklı. Akşam yemeği sofralarınızın vazgeçilmezi olacak bu ürünü hemen sepetinize ekleyin. Ürünlerimiz hijyenik şartlarda hazırlanıp paketlenmektedir.</p>
+                        
+                        <div class="product__details__quantity">
+                            <div class="quantity">
+                                <div class="pro-qty">
+                                    <input type="text" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="primary-btn">SEPETE EKLE</a>
+                        <a href="#" class="heart-icon" title="Favorilere Ekle"><span class="icon_heart_alt"></span></a>
+                        
+                        <ul>
+                            <li><b>Stok Durumu</b> <span>Stokta Mevcut</span></li>
+                            <li><b>Kargo</b> <span>1 gün içinde kargoda. <samp>Bugün mağazadan teslim alınabilir</samp></span></li>
+                            <li><b>Ağırlık</b> <span>1 kg</span></li>
+                            <li><b>Paylaş</b>
+                                <div class="share">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-12">
+                    <div class="product__details__tab">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"
+                                    aria-selected="true">Açıklama</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab"
+                                    aria-selected="false">Ek Bilgi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab"
+                                    aria-selected="false">Yorumlar <span>(1)</span></a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                                <div class="product__details__tab__desc">
+                                    <h6>Ürün Detaylı Açıklaması</h6>
+                                    <p>Ürünümüz, yerel çiftliklerden temin edilen ve veteriner kontrolünden geçmiş danalardan elde edilmiştir. Yüksek protein ve düşük yağ oranı ile sağlıklı beslenme düzeninize katkıda bulunur. Kırmızı et ihtiyacınızı karşılamak için idealdir.</p>
+                                    <p>Mühürleme (searing) ve yavaş pişirme (slow cooking) tekniklerine uygundur. Lezzetini koruması için vakumlu ambalajda gönderilmektedir. Pişirmeden önce oda sıcaklığında bir süre bekletilmesi tavsiye edilir.</p>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-2" role="tabpanel">
+                                <div class="product__details__tab__desc">
+                                    <h6>Besin Değerleri ve Menşei</h6>
+                                    <p>Her 100 gram ürün yaklaşık: 25g Protein, 4g Yağ, 0g Karbonhidrat içerir. Menşei: Türkiye.</p>
+                                    <p>Kırmızı et tüketimi, demir ve B12 vitamini açısından zengin olduğu için haftada bir veya iki kez önerilmektedir.</p>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-3" role="tabpanel">
+                                <div class="product__details__tab__desc">
+                                    <h6>Müşteri Yorumları</h6>
+                                    <p>Melisa : Ürün çok tazeydi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="related-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title related__product__title">
+                        <h2>Benzer Ürünler</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-2.jpg">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Dilimli Pastırma</a></h6>
+                            <h5>350.00 ₺</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-6.jpg">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Dana Fermente Sucuk</a></h6>
+                            <h5>280.00 ₺</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-3.jpg">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Doğal Çiçek Balı</a></h6>
+                            <h5>185.00 ₺</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-9.jpg">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Siyah Patlıcan (Kg)</a></h6>
+                            <h5>35.00 ₺</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Giriş Yap</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Kapat">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="contact-form">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p class="text-center text-muted">Hesabınıza erişmek için e-posta ve şifrenizi girin.</p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="text" placeholder="E-posta veya Kullanıcı Adı">
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="password" placeholder="Şifre">
+                                </div>
+                                <div class="col-lg-12 mb-3">
+                                    <label for="admin-check">
+                                        <input type="checkbox" id="admin-check"> Yönetici (Admin) olarak giriş yap
+                                    </label>
+                                </div>
+                                <div class="col-lg-12 text-center">
+                                    <button type="submit" class="site-btn btn-block">GİRİŞ YAP</button>
+                                </div>
+                                <div class="col-lg-12 text-center mt-3">
+                                    <a href="#" class="small text-muted">Şifremi Unuttum</a> | 
+                                    <a href="#" class="small text-muted">Yeni Hesap Oluştur</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Adres: 60-49 Road 11378 New York</li>
+                            <li>Telefon: +65 11.188.888</li>
+                            <li>Email: hello@colorlib.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                        <h6>Faydalı Linkler</h6>
+                        <ul>
+                            <li><a href="#">Hakkımızda</a></li>
+                            <li><a href="#">Mağazamız Hakkında</a></li>
+                            <li><a href="#">Güvenli Alışveriş</a></li>
+                            <li><a href="#">Teslimat Bilgileri</a></li>
+                            <li><a href="#">Gizlilik Politikası</a></li>
+                            <li><a href="#">Site Haritası</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Biz Kimiz</a></li>
+                            <li><a href="#">Hizmetlerimiz</a></li>
+                            <li><a href="#">Projeler</a></li>
+                            <li><a href="#">İletişim</a></li>
+                            <li><a href="#">İnovasyon</a></li>
+                            <li><a href="#">Referanslar</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <h6>Haber Bültenimize Katılın</h6>
+                        <p>En son mağaza güncellemeleri ve özel teklifler hakkında e-posta alın.</p>
+                        <form action="#">
+                            <input type="text" placeholder="E-posta adresinizi girin">
+                            <button type="submit" class="site-btn">Abone Ol</button>
+                        </form>
+                        <div class="footer__widget__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text">
+                            <p>
+                                Telif Hakkı &copy;<script>document.write(new Date().getFullYear());</script> Tüm hakları saklıdır | Bu şablon, <i class="fa fa-heart" aria-hidden="true"></i> ile <a href="https://colorlib.com" target="_blank">Colorlib</a> tarafından yapılmıştır.
+                            </p>
+                        </div>
+                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
