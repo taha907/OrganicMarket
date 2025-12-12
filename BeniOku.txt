@@ -1,0 +1,92 @@
+Canlı Yayın: https://taha907.github.io/OrganicMarket/
+
+📌 Proje Hakkında
+
+Bu proje, organik sebze, meyve ve şarküteri ürünlerinin tanıtımını yapan modern ve responsive bir web sitesi tasarlamak amacıyla geliştirilmiştir. Web sitesi yalnızca front-end teknolojileri kullanılarak hazırlanmış olup, HTML-CSS-JavaScript altyapısı üzerine kuruludur. Projede hazır bir responsive şablon seçilmiş ve sektöre uygun hâle getirilecek şekilde kapsamlı olarak özelleştirilmiştir.
+
+🎯 Özellikler
+
+Tamamen responsive tasarım
+
+Otomatik değişen slider
+
+Ürün listeleri ve detay sayfaları
+
+Duyurular listesi + modal yapıda duyuru detayları
+
+Google Maps entegrasyonlu iletişim sayfası
+
+Kullanıcı dostu şikayet–öneri formu
+
+Admin panel mantığıyla tasarlanmış içerik yönetimi ekranları (simülasyon)
+
+Ürünlerin besin değerlerini karşılaştıran grafik modülü
+
+İki ürün seçilir
+
+Kalori, protein vb. veriler grafikle gösterilir
+
+Modal pencerede dinamik grafik görüntülenir
+
+Chart.js veya benzeri grafik kütüphanesiyle istatistiksel gösterimler
+
+🗂 Kullanılan Teknolojiler
+
+HTML5
+
+CSS3
+
+JavaScript (Vanilla JS)
+
+Responsive grid sistemi
+
+Chart.js (veya benzeri grafik kütüphanesi)
+
+GitHub Pages (deploy için)
+
+📁 Proje Dosyalarına Erişim
+
+Tüm proje klasörü OneDrive üzerinden paylaşılmıştır:
+
+🔗 OneDrive Proje Klasörü:
+(Buraya kendi OneDrive linkini ekleyebilirsin)
+
+🚀 Kurulum & Kullanım
+
+Local ortamda çalıştırmak için:
+
+Proje klasörünü bilgisayarına indir.
+
+Klasörü açıp index.html dosyasına çift tıkla.
+
+Site tarayıcında otomatik açılacaktır.
+
+Mobil görünümü test etmek için tarayıcı geliştirici araçlarını kullanabilirsin (Ctrl + Shift + I).
+
+📊 Besin Değeri Karşılaştırma Modülü Kullanımı
+
+Ürün sayfasında “Besin Değeri Karşılaştır” butonuna tıklanır (varsa).
+
+Açılan modal pencerede iki ürün seçilir.
+
+JavaScript script’i seçilen verileri işler ve grafik ekranda görüntülenir.
+
+Kullanıcı grafiği kapattığında modal kapanır ve sayfaya geri döner.
+
+Bu modül, proje isterlerindeki "grafik kullanımı" gereksinimine ek olarak, veri analizi odaklı yenilikçi bir özellik sunmaktadır.
+
+📌 Admin Panel Simülasyonu Kullanımı
+
+Bu panel gerçek bir backend içermez; içerik yönetimi mantığını göstermek amacıyla tasarlanmıştır.
+
+Panelde yapılabilen işlemler:
+
+Duyuru ekleme/düzenleme mantığı
+
+Ürün düzenleme arayüzleri
+
+Slider içerik yönetimi simülasyonu
+
+Grafik/istatistik verisi giriş ekranı
+
+Bu yapı tamamen front-end tasarımsal bir gösterimdir.

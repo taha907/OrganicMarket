@@ -3562,4 +3562,166 @@ ol {
     margin-top: 10px;
 }
 
+/* admin-style.css veya <style> bloğu */
+
+/* --- Genel Stil ve Fontlar --- */
+body {
+    font-family: 'Open Sans', sans-serif; /* Daha okunaklı, profesyonel bir font */
+    background-color: #f8f9fc; /* Hafif gri arka plan */
+    color: #333;
+    line-height: 1.6;
+}
+
+h4 {
+    color: #4e73df; /* Bootstrap primary rengi gibi */
+    font-weight: 700;
+}
+
+hr {
+    border-top: 1px solid #eaecf4;
+}
+
+/* --- Yönetim Paneli Düzeni (Sidebar ve Header) --- */
+
+/* Sidebar (admin-sidebar) */
+.admin-sidebar {
+    background: #2c3e50 !important; /* Koyu, modern bir ton */
+    border-right: none !important;
+    color: white;
+}
+
+.humberger__menu__logo {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.humberger__menu__logo h5 {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.admin-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-menu li a {
+    color: #ddd !important;
+    padding: 15px 25px !important;
+    display: flex;
+    align-items: center;
+    font-size: 15px !important;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.admin-menu li a i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.admin-menu li a:hover,
+.admin-menu li.active a,
+.admin-menu li a.active {
+    background: #1abc9c; /* Yumuşak bir yeşil tonu (Ogami yeşiline yakın) */
+    color: #fff !important;
+}
+
+/* Header (admin-header) */
+.admin-header {
+    background: #ffffff !important;
+    border-bottom: 1px solid #e3e6f0 !important;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+    padding: 10px 0 !important;
+}
+
+.admin-header h4 {
+    color: #5a5c69;
+    margin: 0;
+}
+
+.header__top__right__auth a {
+    color: #5a5c69;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.header__top__right__auth a:hover {
+    color: #1abc9c;
+}
+
+/* --- İçerik Alanı ve Kartlar --- */
+.content-wrapper {
+    padding: 25px !important;
+}
+
+.card {
+    border: none; /* Bootstrap varsayılan kenarlığı kaldırıldı */
+    border-radius: 0.35rem; /* Hafif yuvarlak köşeler */
+}
+
+.card-header {
+    background-color: #f7f7f9;
+    border-bottom: 1px solid #e3e6f0;
+    padding: 0.75rem 1.25rem;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+/* --- İstatistik Kartları (Dashboard) --- */
+.border-left-success { border-left: 0.25rem solid #1cc88a !important; }
+.border-left-primary { border-left: 0.25rem solid #4e73df !important; }
+.border-left-warning { border-left: 0.25rem solid #f6c23e !important; }
+.border-left-info { border-left: 0.25rem solid #36b9cc !important; }
+
+.text-xs { font-size: 0.7rem; }
+
+/* --- Tablolar ve Formlar --- */
+.table th, .table td {
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.table thead th {
+    background-color: #eaecf4;
+    color: #333;
+    font-weight: 600;
+    border-bottom: 2px solid #ddd;
+}
+
+.form-control {
+    border-radius: 0.35rem;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #5a5c69;
+}
+
+/* --- Butonlar --- */
+.btn-success { background-color: #1abc9c; border-color: #1abc9c; }
+.btn-success:hover { background-color: #16a085; border-color: #16a085; }
+.btn-warning { background-color: #f39c12; border-color: #f39c12; }
+.btn-danger { background-color: #e74c3c; border-color: #e74c3c; }
+.btn-info { background-color: #3498db; border-color: #3498db; }
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+/* --- Rozetler (Badges) --- */
+.badge-success { background-color: #1cc88a; }
+.badge-danger { background-color: #e74a3b; }
+.badge-warning { background-color: #f6c23e; }
+
 }
